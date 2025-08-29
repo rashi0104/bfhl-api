@@ -1,17 +1,17 @@
 {
   "functions": {
-    "api/*.py": {
+    "api/index.py": {
       "runtime": "python3.9"
     }
   },
   "rewrites": [
     {
       "source": "/bfhl",
-      "destination": "/api/index.py"
+      "destination": "/api/index"
     },
     {
       "source": "/", 
-      "destination": "/api/index.py"
+      "destination": "/api/index"
     }
   ]
 }
